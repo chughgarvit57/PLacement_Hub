@@ -1,0 +1,227 @@
+* {
+    margin:0;
+}
+
+#sec_1 {
+    min-height: 100vh;
+    width:100%;
+    background-image: url('bg_1.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0px 0px 10px 2px black;
+}
+
+nav {
+    display: flex;
+    padding:2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width:175px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding:8px 12px;
+    position: relative;
+}
+
+nav ul li a {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+    text-decoration: none;
+}
+
+nav ul li::after {
+    content: '';
+    width:0;
+    height:2px;
+    background:red;
+    display:block;
+    margin:auto;
+    transition: 0.4s;
+}
+
+nav ul li:hover::after {
+    width:100%;
+}
+
+#div_1 {
+    text-align: center;
+    padding-top:7%;
+}
+
+#div_1 h1 {
+    font-size: 45px;
+    font-family: 'IBM Plex Serif', serif;
+    text-shadow: -1px -1px 1px white;
+}
+
+#div_1 b {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+
+#p_1 {
+    padding:33px 34px;
+}
+
+#p_1 a {
+    text-decoration: none;
+    border:2px solid black;
+    border-radius: 4px;
+    padding:10px 30px;
+    color:black;
+    font-size:18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#p_1 a i {
+    padding-left: 10px;
+}
+
+#p_1 a:hover {
+    background-color: tomato;
+    border: none;
+    color:white;
+    transition: 0.4s;
+}
+
+#sec_2_info {
+    margin-left:15px;
+    margin-right:15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #FFFAFA;
+    height:cover;
+    box-shadow: 0px 0px 10px 3px black;
+}
+
+.div_1_sec_2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top:10px;
+    text-shadow: -3px 3px 4px #DC143C;
+}
+
+.sec_2_1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div_2_sec_2_part_2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: auto;
+}
+
+.div_2_sec_2 {
+    padding-left:40px;
+    font-size: 35px;
+    font-weight: bold;
+    color:#DC143C;
+    padding-top:40px;
+    text-align: center;
+    text-shadow: -2px 2px 3px black;
+}
+
+.div_2_sec_2:hover {
+    transition: 4s;
+    color:black;
+    text-shadow: -2px 2px 3px #DC143C;
+}
+
+.div_3_sec_2 ul{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left:20px;
+    margin-top: 20px;
+}
+
+.div_4_sec_2 {
+    padding-left:40px;
+    font-size: 35px;
+    font-weight: bold;
+    color:#DC143C;
+    padding-top:20px;
+    text-align: center;
+    text-shadow: -2px 2px 3px black;
+}
+
+.div_4_sec_2:hover {
+    transition: 4s;
+    color:black;
+    text-shadow: -2px 2px 3px #DC143C;
+}
+
+.div_5_sec_2 ul {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left:20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.div_5_sec_2 ul li {
+    font-weight: bold;
+}
+
+.div_5_sec_2 ul p {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left:20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: justify;
+    padding-right: 40px;
+}
+
+
+
+#sec_3_top_companies {
+    margin-left:15px;
+    margin-right:15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #FFFAFA;
+    height:cover;
+    box-shadow: 0px 0px 10px 3px black;
+}
+
+.div_1_sec_3 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top:10px;
+    text-shadow: -3px 3px 4px #DC143C;
+}
+
+.div_2_sec_3 {
+    margin-left:45px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.div_2_sec_3 img {
+    width: 15%;
+    height:15%;
+    padding:4px;
+}
+
+.div_2_sec_3 img:hover {
+    transition: 2s;
+    box-shadow: 0px 0px 6px 4px black;
+}

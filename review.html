@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>
+            PlacementHub/Review.com
+        </title>
+        <script src="https://kit.fontawesome.com/911a4c714d.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="LogoMakr.png">
+        <link rel="stylesheet" href="review.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <div id="upper_button">
+            <a id="a_1" href="Home_p.html">Home</a>
+            <b id="b_1" style="padding-left: 34%;">CSE</b>&ensp;<b id="b_1">Placement</b>&ensp;<b id="b_1">Hub</b>
+          </div>
+
+        <section class="sec_1">
+            <div class="div_1">
+                <div class="upper_heading">
+                    Write a Review
+                </div>
+                <div class="upper_content">
+                    Help 10 Lakh+ jobseekers in choosing the right company.
+                </div>
+            </div>
+        </section>
+        <section class="sec_2">
+            <form class="form_1">
+                <div class="heading_1">Company Name</div>
+                <input type="text" name="company_name" placeholder="eg: Wipro" required><br>
+                <div class="heading_2">Job Title</div>
+                <input type="text" name="job_title" placeholder="eg: Product Manager" required><br>
+                <div class="heading_3">Rate The Company :</div>
+
+                <!-- Rating START -->
+                <div class="container">
+                    <div class="star-widget">
+                      <input type="radio" name="rate" id="rate-5">
+                      <label for="rate-5" class="fas fa-star"></label>
+                      <input type="radio" name="rate" id="rate-4">
+                      <label for="rate-4" class="fas fa-star"></label>
+                      <input type="radio" name="rate" id="rate-3">
+                      <label for="rate-3" class="fas fa-star"></label>
+                      <input type="radio" name="rate" id="rate-2">
+                      <label for="rate-2" class="fas fa-star"></label>
+                      <input type="radio" name="rate" id="rate-1">
+                      <label for="rate-1" class="fas fa-star"></label>
+                    </div>
+                </div>
+                <!-- Rating END -->
+            </form>
+
+            <form class="form_2">
+                <div class="heading_4">
+                    Do you currently work here ?
+                </div>
+                <input type="radio" name="work" id="radio_1" required><b>Yes</b>
+                <input type="radio" name="work"id="radio_2" required><b>NO</b>
+            </form>
+
+            <form class="form_3">
+                <div class="heading_5">Location Of Your Office</div>
+                <input type="text" name="Location" placeholder="eg: Delhi" required><br>
+                <div class="heading_6">Department/Division</div>
+                <input type="text" name="job_title" placeholder="eg: Finance" required><br>
+            </form>
+
+            <form class="form_4" action="review.html" target="_self" onsubmit="alert('Thank you for your Review.&#128516;')">
+                <button class="submit">Submit Review</button>
+            </form>
+            <div class="last_line">
+                <p>Please agree to our terms and condtions</p>
+                By submitting I agree to the <b>community guidelines</b>, <b>terms of use</b> and <b>privacy policy</b> of PlacementHub.com
+            </div>
+
+        </section>
+    </body>
+</html>

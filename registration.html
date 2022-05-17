@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <link rel="icon" href="LogoMakr.png" >
+        <title>
+            PlacementHub/Register.com
+        </title>
+        <link rel="stylesheet" href="registration.css">
+        <script src="https://kit.fontawesome.com/911a4c714d.js" crossorigin="anonymous"></script>
+    </head>
+    <body id="body_1">
+        <form action="home_p.html" target="_self">
+
+           <main id="main_1">
+            <img id="img_1" src="LogoMakr.png">
+            <section id="sec_1">Sign-in To Your Account</section>  
+            <br>
+            <input type="email" id="email" placeholder="Email Address" required>
+            <br><br>
+            <input type="password" id="password" onclick="myFunction()" placeholder="Password (Must be between 6-16 characters)" minlength="6" maxlength="16" required>
+            <br><br>
+            <button id="button_1">SIGN IN</button>
+            <script>
+                function myFunction() {
+                    let text;
+                    let person = prompt("Please enter the Name:");
+                    if (person == null || person == "") {
+                    } else {
+                        alert("Hello " + person + "! Now you can Write the password!");
+                    }
+                    document.getElementById("demo").innerHTML = text;
+                }
+            </script>
+            <br><br>
+            <b id="b_1">Sign in with</b>
+            <button id="button_2" onclick="window.location.href = ''"><i class="fab fa-facebook-square"></i>&nbsp&nbspFacebook</button>
+            <button id="button_3" onclick="window.location.href = ''"><i class="fab fa-google" style="user-select: auto;"></i>&nbsp&nbspGoogle</button>
+            <br><br>
+            <a id="a_2" href="">Forget Your Password ?</a>
+            <br>
+            <b id="b_2">Don't have an account ?<a id="a_3" href="">Sign Up</a></b>
+
+           </main>
+
+        </form>
+    </body>
+    </html>

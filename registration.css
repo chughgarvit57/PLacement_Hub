@@ -1,0 +1,135 @@
+#main_1 {
+    background-color:white;
+    margin-left:33%;
+    margin-right:33%;
+    margin-top:40px;
+    margin-bottom:40px;
+    width:35%;
+    height:88%;
+    box-shadow: 0px 0px 10px 5px black;
+}
+
+#body_1 {
+    background-image: url("bg_register.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+#img_1 {
+    padding-top:25px;
+    padding-left:32%;
+    width:160px;
+    height:80px;   
+}
+
+#sec_1 {
+    text-align:center;
+    font-size:25px;
+    padding-top: 10px;
+}
+
+input:invalid {
+    border:2px solid red;
+}
+
+#button_1 {
+    margin-top:10px;
+    margin-left:40px;
+    width:80%;
+    height:40px;
+    font-size: 15px;
+    background-color:tomato;
+    border:none;
+    cursor:pointer;
+    color:white
+}
+
+#email {
+    margin-left:40px;
+    width:80%;
+    height:40px;
+    font-size: 16px;
+    border: 1.8px solid black;
+}
+
+#password {
+    margin-left:40px;
+    width:80%;
+    height:40px;
+    font-size: 16px;
+    border: 1.8px solid black;
+}
+
+#button_2 {
+    background-color:#4267B2;
+    color:white;
+    border:none;
+    cursor:pointer;
+    width:100px;
+    height:40px;
+    border-radius:3px;
+    margin-left:7%;
+    font-size:15px;
+}
+
+#button_2:hover {
+    background-color:rgb(67, 67, 223);
+}
+
+#button_3 {
+    background-color:#4285F4;
+    color:white;
+    border:none;
+    cursor:pointer;
+    width:100px;
+    height:40px;
+    border-radius:3px;
+    font-size:15px;
+}
+
+#button_3:hover {
+    background-color:rgb(33, 91, 252);
+}
+
+#b_1 {
+    padding-left:10%;
+    font-size: 20px;
+    font-weight:100;
+}
+
+#a_2 {
+    padding-left:34%;
+    font-size: 13px;
+    font-weight:100;
+    text-decoration:none;
+    color:rgb(0, 144, 201);
+}
+
+#a_2:hover {
+    color:red;
+}
+
+#b_2 {
+    padding-left:27%;
+    font-size: 15px;
+    font-weight:100;
+}
+
+#a_3 {
+    font-size: 15px;
+    font-weight:100;
+    text-decoration:none;
+    color:rgb(0, 144, 201);
+}
+
+#a_3:hover {
+    color:red;
+}
+
+.label {
+    font-size: 22px;
+    margin-left: 40px;
+}
+

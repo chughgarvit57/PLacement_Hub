@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+.background {
+    min-height: 75vh;
+    width:100%;
+    background-image: url('companies/wall_background.jpg');
+    background-size: cover;
+    position: absolute;
+}
+
+.background_text {
+    margin-right:63%;
+    margin-left: 7%;
+    margin-top: 18%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:20px;
+    padding-right: 20px;
+    border:3px solid black;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.content {
+    padding-top: 10px;
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.text_sec_1 img {
+    height:40%;
+    width:20%;
+    padding-top:39%;
+}
