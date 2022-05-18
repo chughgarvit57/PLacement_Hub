@@ -125,7 +125,7 @@ body {
 
 input:not(:checked) ~ label:hover,
 input:not(:checked) ~ label:hover ~ label{
-    color: #00bfff;
+    color: orange;
 }
 
 input:checked ~ label{
